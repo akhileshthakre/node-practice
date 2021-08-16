@@ -9,5 +9,5 @@ class Person {
     }
 }
 
-
-module.exports = Person
+const person1 = new Person('Akhilesh',25)
+person1.greeting()
